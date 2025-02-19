@@ -1,0 +1,468 @@
+2025-02-17 21:41:46 [main] TRACE example.Log4j2LoggingTest - I am a trace log message
+2025-02-17 21:41:46 [main] DEBUG example.Log4j2LoggingTest - I am a debug log message
+2025-02-17 21:41:46 [main] INFO  example.Log4j2LoggingTest - I am a info level log message
+2025-02-17 21:41:46 [main] ERROR example.Log4j2LoggingTest - I am a error level log message 
+2025-02-17 21:41:46 [main] FATAL example.Log4j2LoggingTest - I am a fatal level log message
+2025-02-18 20:05:08 [main] TRACE example.Log4j2LoggingTest - I am a trace log message
+2025-02-18 20:05:08 [main] DEBUG example.Log4j2LoggingTest - I am a debug log message
+2025-02-18 20:05:08 [main] INFO  example.Log4j2LoggingTest - I am a info level log message
+2025-02-18 20:05:08 [main] ERROR example.Log4j2LoggingTest - I am a error level log message 
+2025-02-18 20:05:08 [main] FATAL example.Log4j2LoggingTest - I am a fatal level log message
+2025-02-18 20:11:34 [main] INFO  com.pragmatic.selenium.test.ProductTest - Starting test for Product Details
+2025-02-18 20:11:37 [main] INFO  com.pragmatic.selenium.test.ProductTest - Starting test for Product Details
+2025-02-18 20:11:40 [main] INFO  com.pragmatic.selenium.test.ProductTest - Starting test for Product Details
+2025-02-18 20:11:42 [main] INFO  com.pragmatic.selenium.test.ProductTest - Starting test for Product Details
+2025-02-18 20:11:45 [main] INFO  com.pragmatic.selenium.test.ProductTest - Starting test for Product Details
+2025-02-18 20:11:48 [main] INFO  com.pragmatic.selenium.test.ProductTest - Starting test for Product Details
+2025-02-18 20:18:11 [main] INFO  com.pragmatic.selenium.test.ProductTest - Starting test for Product Details
+2025-02-18 20:18:14 [main] INFO  com.pragmatic.selenium.test.ProductTest - Starting test for Product Details
+2025-02-18 20:18:17 [main] INFO  com.pragmatic.selenium.test.ProductTest - Starting test for Product Details
+2025-02-18 20:18:20 [main] INFO  com.pragmatic.selenium.test.ProductTest - Starting test for Product Details
+2025-02-18 20:18:23 [main] INFO  com.pragmatic.selenium.test.ProductTest - Starting test for Product Details
+2025-02-18 20:18:25 [main] INFO  com.pragmatic.selenium.test.ProductTest - Starting test for Product Details
+2025-02-18 20:19:22 [main] INFO  com.pragmatic.selenium.test.ProductTest - Starting test for Product Details
+2025-02-18 20:19:25 [main] INFO  com.pragmatic.selenium.test.ProductTest - Starting test for Product Details
+2025-02-18 20:19:28 [main] INFO  com.pragmatic.selenium.test.ProductTest - Starting test for Product Details
+2025-02-18 20:19:31 [main] INFO  com.pragmatic.selenium.test.ProductTest - Starting test for Product Details
+2025-02-18 20:19:34 [main] INFO  com.pragmatic.selenium.test.ProductTest - Starting test for Product Details
+2025-02-18 20:19:37 [main] INFO  com.pragmatic.selenium.test.ProductTest - Starting test for Product Details
+2025-02-18 20:24:45 [main] INFO  com.pragmatic.selenium.test.ProductTest - Starting test for Product Details
+2025-02-18 20:24:47 [main] INFO  com.pragmatic.selenium.test.ProductTest - Starting test for Product Details
+2025-02-18 20:24:50 [main] INFO  com.pragmatic.selenium.test.ProductTest - Starting test for Product Details
+2025-02-18 20:24:53 [main] INFO  com.pragmatic.selenium.test.ProductTest - Starting test for Product Details
+2025-02-18 20:24:56 [main] INFO  com.pragmatic.selenium.test.ProductTest - Starting test for Product Details
+2025-02-18 20:24:59 [main] INFO  com.pragmatic.selenium.test.ProductTest - Starting test for Product Details
+2025-02-18 20:35:14 [main] INFO  com.pragmatic.selenium.test.ProductTest - Starting test for Product Details
+2025-02-18 20:35:17 [main] INFO  com.pragmatic.selenium.test.ProductTest - Starting test for Product Details
+2025-02-18 20:35:19 [main] INFO  com.pragmatic.selenium.test.ProductTest - Starting test for Product Details
+2025-02-18 20:35:22 [main] INFO  com.pragmatic.selenium.test.ProductTest - Starting test for Product Details
+2025-02-18 20:35:25 [main] INFO  com.pragmatic.selenium.test.ProductTest - Starting test for Product Details
+2025-02-18 20:35:28 [main] INFO  com.pragmatic.selenium.test.ProductTest - Starting test for Product Details
+2025-02-18 20:36:06 [main] INFO  com.pragmatic.selenium.test.ProductTest - Starting test for Product Details
+2025-02-18 20:36:08 [main] INFO  com.pragmatic.selenium.test.ProductTest - Starting test for Product Details
+2025-02-18 20:36:11 [main] INFO  com.pragmatic.selenium.test.ProductTest - Starting test for Product Details
+2025-02-18 20:36:14 [main] INFO  com.pragmatic.selenium.test.ProductTest - Starting test for Product Details
+2025-02-18 20:36:17 [main] INFO  com.pragmatic.selenium.test.ProductTest - Starting test for Product Details
+2025-02-18 20:36:20 [main] INFO  com.pragmatic.selenium.test.ProductTest - Starting test for Product Details
+2025-02-18 20:50:28 [main] INFO  com.pragmatic.selenium.test.ProductTest - Starting test for Product Details
+2025-02-18 20:50:31 [main] INFO  com.pragmatic.selenium.test.ProductTest - Starting test for Product Details
+2025-02-18 20:50:34 [main] INFO  com.pragmatic.selenium.test.ProductTest - Starting test for Product Details
+2025-02-18 20:50:36 [main] INFO  com.pragmatic.selenium.test.ProductTest - Starting test for Product Details
+2025-02-18 20:50:39 [main] INFO  com.pragmatic.selenium.test.ProductTest - Starting test for Product Details
+2025-02-18 20:50:42 [main] INFO  com.pragmatic.selenium.test.ProductTest - Starting test for Product Details
+2025-02-18 20:52:54 [main] INFO  com.pragmatic.selenium.test.ProductTest - Starting test for Product Details
+2025-02-18 20:52:57 [main] INFO  com.pragmatic.selenium.test.ProductTest - Starting test for Product Details
+2025-02-18 20:53:00 [main] INFO  com.pragmatic.selenium.test.ProductTest - Starting test for Product Details
+2025-02-18 20:53:03 [main] INFO  com.pragmatic.selenium.test.ProductTest - Starting test for Product Details
+2025-02-18 20:53:06 [main] INFO  com.pragmatic.selenium.test.ProductTest - Starting test for Product Details
+2025-02-18 20:53:09 [main] INFO  com.pragmatic.selenium.test.ProductTest - Starting test for Product Details
+2025-02-18 21:02:29 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Actual title Name: Products
+2025-02-18 21:09:34 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Actual title Name: Products
+2025-02-18 21:13:12 [main] INFO  com.pragmatic.selenium.pages.ProductPage - Product name matches: Sauce Labs Backpack
+2025-02-18 21:13:12 [main] INFO  com.pragmatic.selenium.pages.ProductPage - Product name matches: Sauce Labs Bike Light
+2025-02-18 21:13:12 [main] INFO  com.pragmatic.selenium.pages.ProductPage - Product name matches: Sauce Labs Bolt T-Shirt
+2025-02-18 21:13:12 [main] INFO  com.pragmatic.selenium.pages.ProductPage - Product name matches: Sauce Labs Fleece Jacket
+2025-02-18 21:13:12 [main] INFO  com.pragmatic.selenium.pages.ProductPage - Product name matches: Sauce Labs Onesie
+2025-02-18 21:13:12 [main] INFO  com.pragmatic.selenium.pages.ProductPage - Product name matches: Test.allTheThings() T-Shirt (Red)
+2025-02-18 21:13:14 [main] INFO  com.pragmatic.selenium.pages.ProductPage - Product name matches: Sauce Labs Backpack
+2025-02-18 21:13:14 [main] INFO  com.pragmatic.selenium.pages.ProductPage - Product name matches: Sauce Labs Bike Light
+2025-02-18 21:13:15 [main] INFO  com.pragmatic.selenium.pages.ProductPage - Product name matches: Sauce Labs Bolt T-Shirt
+2025-02-18 21:13:15 [main] INFO  com.pragmatic.selenium.pages.ProductPage - Product name matches: Sauce Labs Fleece Jacket
+2025-02-18 21:13:15 [main] INFO  com.pragmatic.selenium.pages.ProductPage - Product name matches: Sauce Labs Onesie
+2025-02-18 21:13:15 [main] INFO  com.pragmatic.selenium.pages.ProductPage - Product name matches: Test.allTheThings() T-Shirt (Red)
+2025-02-18 21:13:17 [main] INFO  com.pragmatic.selenium.pages.ProductPage - Product name matches: Sauce Labs Backpack
+2025-02-18 21:13:17 [main] INFO  com.pragmatic.selenium.pages.ProductPage - Product name matches: Sauce Labs Bike Light
+2025-02-18 21:13:17 [main] INFO  com.pragmatic.selenium.pages.ProductPage - Product name matches: Sauce Labs Bolt T-Shirt
+2025-02-18 21:13:17 [main] INFO  com.pragmatic.selenium.pages.ProductPage - Product name matches: Sauce Labs Fleece Jacket
+2025-02-18 21:13:17 [main] INFO  com.pragmatic.selenium.pages.ProductPage - Product name matches: Sauce Labs Onesie
+2025-02-18 21:13:17 [main] INFO  com.pragmatic.selenium.pages.ProductPage - Product name matches: Test.allTheThings() T-Shirt (Red)
+2025-02-18 21:13:20 [main] INFO  com.pragmatic.selenium.pages.ProductPage - Product name matches: Sauce Labs Backpack
+2025-02-18 21:13:20 [main] INFO  com.pragmatic.selenium.pages.ProductPage - Product name matches: Sauce Labs Bike Light
+2025-02-18 21:13:20 [main] INFO  com.pragmatic.selenium.pages.ProductPage - Product name matches: Sauce Labs Bolt T-Shirt
+2025-02-18 21:13:20 [main] INFO  com.pragmatic.selenium.pages.ProductPage - Product name matches: Sauce Labs Fleece Jacket
+2025-02-18 21:13:20 [main] INFO  com.pragmatic.selenium.pages.ProductPage - Product name matches: Sauce Labs Onesie
+2025-02-18 21:13:20 [main] INFO  com.pragmatic.selenium.pages.ProductPage - Product name matches: Test.allTheThings() T-Shirt (Red)
+2025-02-18 21:13:23 [main] INFO  com.pragmatic.selenium.pages.ProductPage - Product name matches: Sauce Labs Backpack
+2025-02-18 21:13:23 [main] INFO  com.pragmatic.selenium.pages.ProductPage - Product name matches: Sauce Labs Bike Light
+2025-02-18 21:13:23 [main] INFO  com.pragmatic.selenium.pages.ProductPage - Product name matches: Sauce Labs Bolt T-Shirt
+2025-02-18 21:13:23 [main] INFO  com.pragmatic.selenium.pages.ProductPage - Product name matches: Sauce Labs Fleece Jacket
+2025-02-18 21:13:23 [main] INFO  com.pragmatic.selenium.pages.ProductPage - Product name matches: Sauce Labs Onesie
+2025-02-18 21:13:23 [main] INFO  com.pragmatic.selenium.pages.ProductPage - Product name matches: Test.allTheThings() T-Shirt (Red)
+2025-02-18 21:13:26 [main] INFO  com.pragmatic.selenium.pages.ProductPage - Product name matches: Sauce Labs Backpack
+2025-02-18 21:13:26 [main] INFO  com.pragmatic.selenium.pages.ProductPage - Product name matches: Sauce Labs Bike Light
+2025-02-18 21:13:26 [main] INFO  com.pragmatic.selenium.pages.ProductPage - Product name matches: Sauce Labs Bolt T-Shirt
+2025-02-18 21:13:26 [main] INFO  com.pragmatic.selenium.pages.ProductPage - Product name matches: Sauce Labs Fleece Jacket
+2025-02-18 21:13:26 [main] INFO  com.pragmatic.selenium.pages.ProductPage - Product name matches: Sauce Labs Onesie
+2025-02-18 21:13:26 [main] INFO  com.pragmatic.selenium.pages.ProductPage - Product name matches: Test.allTheThings() T-Shirt (Red)
+2025-02-18 21:21:58 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Name: Sauce Labs Backpack
+2025-02-18 21:21:58 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Price: $29.99
+2025-02-18 21:21:58 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Name: Sauce Labs Bike Light
+2025-02-18 21:21:58 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Price: $9.99
+2025-02-18 21:21:58 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Name: Sauce Labs Bolt T-Shirt
+2025-02-18 21:21:58 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Price: $15.99
+2025-02-18 21:21:58 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Name: Sauce Labs Fleece Jacket
+2025-02-18 21:21:58 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Price: $49.99
+2025-02-18 21:21:58 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Name: Sauce Labs Onesie
+2025-02-18 21:21:58 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Price: $7.99
+2025-02-18 21:21:58 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Name: Test.allTheThings() T-Shirt (Red)
+2025-02-18 21:21:58 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Price: $15.99
+2025-02-18 21:21:58 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Actual Product Name: Sauce Labs Backpack
+2025-02-18 21:21:58 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Expected Product Name: Sauce Labs Backpack
+2025-02-18 21:21:58 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Comparison: Sauce Labs Backpack - Sauce Labs Backpack
+2025-02-18 21:21:58 [main] INFO  com.pragmatic.selenium.test.ProductTest - Product name matches: Sauce Labs Backpack
+2025-02-18 21:21:58 [main] INFO  com.pragmatic.selenium.test.ProductTest - Product price matches: $29.99
+2025-02-18 21:21:58 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Actual Product Name: Sauce Labs Bike Light
+2025-02-18 21:21:58 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Expected Product Name: Sauce Labs Backpack
+2025-02-18 21:21:58 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Comparison: Sauce Labs Bike Light - Sauce Labs Backpack
+2025-02-18 21:22:00 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Name: Sauce Labs Backpack
+2025-02-18 21:22:00 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Price: $29.99
+2025-02-18 21:22:00 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Name: Sauce Labs Bike Light
+2025-02-18 21:22:00 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Price: $9.99
+2025-02-18 21:22:01 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Name: Sauce Labs Bolt T-Shirt
+2025-02-18 21:22:01 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Price: $15.99
+2025-02-18 21:22:01 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Name: Sauce Labs Fleece Jacket
+2025-02-18 21:22:01 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Price: $49.99
+2025-02-18 21:22:01 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Name: Sauce Labs Onesie
+2025-02-18 21:22:01 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Price: $7.99
+2025-02-18 21:22:01 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Name: Test.allTheThings() T-Shirt (Red)
+2025-02-18 21:22:01 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Price: $15.99
+2025-02-18 21:22:01 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Actual Product Name: Sauce Labs Backpack
+2025-02-18 21:22:01 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Expected Product Name: Sauce Labs Bike Light
+2025-02-18 21:22:01 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Comparison: Sauce Labs Backpack - Sauce Labs Bike Light
+2025-02-18 21:22:03 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Name: Sauce Labs Backpack
+2025-02-18 21:22:03 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Price: $29.99
+2025-02-18 21:22:03 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Name: Sauce Labs Bike Light
+2025-02-18 21:22:03 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Price: $9.99
+2025-02-18 21:22:03 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Name: Sauce Labs Bolt T-Shirt
+2025-02-18 21:22:03 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Price: $15.99
+2025-02-18 21:22:03 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Name: Sauce Labs Fleece Jacket
+2025-02-18 21:22:03 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Price: $49.99
+2025-02-18 21:22:03 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Name: Sauce Labs Onesie
+2025-02-18 21:22:03 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Price: $7.99
+2025-02-18 21:22:03 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Name: Test.allTheThings() T-Shirt (Red)
+2025-02-18 21:22:03 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Price: $15.99
+2025-02-18 21:22:03 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Actual Product Name: Sauce Labs Backpack
+2025-02-18 21:22:03 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Expected Product Name: Sauce Labs Bolt T-Shirt
+2025-02-18 21:22:03 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Comparison: Sauce Labs Backpack - Sauce Labs Bolt T-Shirt
+2025-02-18 21:22:06 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Name: Sauce Labs Backpack
+2025-02-18 21:22:06 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Price: $29.99
+2025-02-18 21:22:06 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Name: Sauce Labs Bike Light
+2025-02-18 21:22:06 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Price: $9.99
+2025-02-18 21:22:06 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Name: Sauce Labs Bolt T-Shirt
+2025-02-18 21:22:06 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Price: $15.99
+2025-02-18 21:22:06 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Name: Sauce Labs Fleece Jacket
+2025-02-18 21:22:06 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Price: $49.99
+2025-02-18 21:22:06 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Name: Sauce Labs Onesie
+2025-02-18 21:22:06 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Price: $7.99
+2025-02-18 21:22:06 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Name: Test.allTheThings() T-Shirt (Red)
+2025-02-18 21:22:06 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Price: $15.99
+2025-02-18 21:22:06 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Actual Product Name: Sauce Labs Backpack
+2025-02-18 21:22:06 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Expected Product Name: Sauce Labs Fleece Jacket
+2025-02-18 21:22:06 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Comparison: Sauce Labs Backpack - Sauce Labs Fleece Jacket
+2025-02-18 21:22:09 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Name: Sauce Labs Backpack
+2025-02-18 21:22:09 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Price: $29.99
+2025-02-18 21:22:09 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Name: Sauce Labs Bike Light
+2025-02-18 21:22:09 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Price: $9.99
+2025-02-18 21:22:09 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Name: Sauce Labs Bolt T-Shirt
+2025-02-18 21:22:09 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Price: $15.99
+2025-02-18 21:22:09 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Name: Sauce Labs Fleece Jacket
+2025-02-18 21:22:09 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Price: $49.99
+2025-02-18 21:22:09 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Name: Sauce Labs Onesie
+2025-02-18 21:22:09 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Price: $7.99
+2025-02-18 21:22:09 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Name: Test.allTheThings() T-Shirt (Red)
+2025-02-18 21:22:09 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Price: $15.99
+2025-02-18 21:22:09 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Actual Product Name: Sauce Labs Backpack
+2025-02-18 21:22:09 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Expected Product Name: Sauce Labs Onesie
+2025-02-18 21:22:09 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Comparison: Sauce Labs Backpack - Sauce Labs Onesie
+2025-02-18 21:22:12 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Name: Sauce Labs Backpack
+2025-02-18 21:22:12 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Price: $29.99
+2025-02-18 21:22:12 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Name: Sauce Labs Bike Light
+2025-02-18 21:22:12 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Price: $9.99
+2025-02-18 21:22:12 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Name: Sauce Labs Bolt T-Shirt
+2025-02-18 21:22:12 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Price: $15.99
+2025-02-18 21:22:12 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Name: Sauce Labs Fleece Jacket
+2025-02-18 21:22:12 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Price: $49.99
+2025-02-18 21:22:12 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Name: Sauce Labs Onesie
+2025-02-18 21:22:12 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Price: $7.99
+2025-02-18 21:22:12 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Name: Test.allTheThings() T-Shirt (Red)
+2025-02-18 21:22:12 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Price: $15.99
+2025-02-18 21:22:12 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Actual Product Name: Sauce Labs Backpack
+2025-02-18 21:22:12 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Expected Product Name: Test.allTheThings() T-Shirt (Red)
+2025-02-18 21:22:12 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Comparison: Sauce Labs Backpack - Test.allTheThings() T-Shirt (Red)
+2025-02-18 21:37:37 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Name: Sauce Labs Backpack
+2025-02-18 21:37:37 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Price: $29.99
+2025-02-18 21:37:37 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Name: Sauce Labs Bike Light
+2025-02-18 21:37:37 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Price: $9.99
+2025-02-18 21:37:37 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Name: Sauce Labs Bolt T-Shirt
+2025-02-18 21:37:37 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Price: $15.99
+2025-02-18 21:37:37 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Name: Sauce Labs Fleece Jacket
+2025-02-18 21:37:37 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Price: $49.99
+2025-02-18 21:37:37 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Name: Sauce Labs Onesie
+2025-02-18 21:37:37 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Price: $7.99
+2025-02-18 21:37:37 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Name: Test.allTheThings() T-Shirt (Red)
+2025-02-18 21:37:37 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Price: $15.99
+2025-02-18 21:37:37 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Actual Product Name: Sauce Labs Backpack
+2025-02-18 21:37:37 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Expected Product Name: Sauce Labs Backpack
+2025-02-18 21:37:37 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Comparison: Sauce Labs Backpack - Sauce Labs Backpack
+2025-02-18 21:37:37 [main] INFO  com.pragmatic.selenium.test.ProductTest - Product name matches: Sauce Labs Backpack
+2025-02-18 21:37:37 [main] INFO  com.pragmatic.selenium.test.ProductTest - Product price matches: $29.99
+2025-02-18 21:37:37 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Actual Product Name: Sauce Labs Bike Light
+2025-02-18 21:37:37 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Expected Product Name: Sauce Labs Backpack
+2025-02-18 21:37:37 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Comparison: Sauce Labs Bike Light - Sauce Labs Backpack
+2025-02-18 21:37:40 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Name: Sauce Labs Backpack
+2025-02-18 21:37:40 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Price: $29.99
+2025-02-18 21:37:40 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Name: Sauce Labs Bike Light
+2025-02-18 21:37:40 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Price: $9.99
+2025-02-18 21:37:40 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Name: Sauce Labs Bolt T-Shirt
+2025-02-18 21:37:40 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Price: $15.99
+2025-02-18 21:37:40 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Name: Sauce Labs Fleece Jacket
+2025-02-18 21:37:40 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Price: $49.99
+2025-02-18 21:37:40 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Name: Sauce Labs Onesie
+2025-02-18 21:37:40 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Price: $7.99
+2025-02-18 21:37:40 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Name: Test.allTheThings() T-Shirt (Red)
+2025-02-18 21:37:40 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Price: $15.99
+2025-02-18 21:37:40 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Actual Product Name: Sauce Labs Backpack
+2025-02-18 21:37:40 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Expected Product Name: Sauce Labs Bike Light
+2025-02-18 21:37:40 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Comparison: Sauce Labs Backpack - Sauce Labs Bike Light
+2025-02-18 21:37:43 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Name: Sauce Labs Backpack
+2025-02-18 21:37:43 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Price: $29.99
+2025-02-18 21:37:43 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Name: Sauce Labs Bike Light
+2025-02-18 21:37:43 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Price: $9.99
+2025-02-18 21:37:43 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Name: Sauce Labs Bolt T-Shirt
+2025-02-18 21:37:43 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Price: $15.99
+2025-02-18 21:37:43 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Name: Sauce Labs Fleece Jacket
+2025-02-18 21:37:43 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Price: $49.99
+2025-02-18 21:37:43 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Name: Sauce Labs Onesie
+2025-02-18 21:37:43 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Price: $7.99
+2025-02-18 21:37:43 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Name: Test.allTheThings() T-Shirt (Red)
+2025-02-18 21:37:43 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Price: $15.99
+2025-02-18 21:37:43 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Actual Product Name: Sauce Labs Backpack
+2025-02-18 21:37:43 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Expected Product Name: Sauce Labs Bolt T-Shirt
+2025-02-18 21:37:43 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Comparison: Sauce Labs Backpack - Sauce Labs Bolt T-Shirt
+2025-02-18 21:37:46 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Name: Sauce Labs Backpack
+2025-02-18 21:37:46 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Price: $29.99
+2025-02-18 21:37:46 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Name: Sauce Labs Bike Light
+2025-02-18 21:37:46 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Price: $9.99
+2025-02-18 21:37:46 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Name: Sauce Labs Bolt T-Shirt
+2025-02-18 21:37:46 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Price: $15.99
+2025-02-18 21:37:46 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Name: Sauce Labs Fleece Jacket
+2025-02-18 21:37:46 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Price: $49.99
+2025-02-18 21:37:46 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Name: Sauce Labs Onesie
+2025-02-18 21:37:46 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Price: $7.99
+2025-02-18 21:37:46 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Name: Test.allTheThings() T-Shirt (Red)
+2025-02-18 21:37:46 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Price: $15.99
+2025-02-18 21:37:46 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Actual Product Name: Sauce Labs Backpack
+2025-02-18 21:37:46 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Expected Product Name: Sauce Labs Fleece Jacket
+2025-02-18 21:37:46 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Comparison: Sauce Labs Backpack - Sauce Labs Fleece Jacket
+2025-02-18 21:37:49 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Name: Sauce Labs Backpack
+2025-02-18 21:37:49 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Price: $29.99
+2025-02-18 21:37:49 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Name: Sauce Labs Bike Light
+2025-02-18 21:37:49 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Price: $9.99
+2025-02-18 21:37:49 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Name: Sauce Labs Bolt T-Shirt
+2025-02-18 21:37:49 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Price: $15.99
+2025-02-18 21:37:49 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Name: Sauce Labs Fleece Jacket
+2025-02-18 21:37:49 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Price: $49.99
+2025-02-18 21:37:49 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Name: Sauce Labs Onesie
+2025-02-18 21:37:49 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Price: $7.99
+2025-02-18 21:37:49 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Name: Test.allTheThings() T-Shirt (Red)
+2025-02-18 21:37:49 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Price: $15.99
+2025-02-18 21:37:49 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Actual Product Name: Sauce Labs Backpack
+2025-02-18 21:37:49 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Expected Product Name: Sauce Labs Onesie
+2025-02-18 21:37:49 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Comparison: Sauce Labs Backpack - Sauce Labs Onesie
+2025-02-18 21:37:52 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Name: Sauce Labs Backpack
+2025-02-18 21:37:52 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Price: $29.99
+2025-02-18 21:37:52 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Name: Sauce Labs Bike Light
+2025-02-18 21:37:52 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Price: $9.99
+2025-02-18 21:37:52 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Name: Sauce Labs Bolt T-Shirt
+2025-02-18 21:37:52 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Price: $15.99
+2025-02-18 21:37:52 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Name: Sauce Labs Fleece Jacket
+2025-02-18 21:37:52 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Price: $49.99
+2025-02-18 21:37:52 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Name: Sauce Labs Onesie
+2025-02-18 21:37:52 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Price: $7.99
+2025-02-18 21:37:52 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Name: Test.allTheThings() T-Shirt (Red)
+2025-02-18 21:37:52 [main] DEBUG com.pragmatic.selenium.pages.ProductPage - Actual Product Price: $15.99
+2025-02-18 21:37:52 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Actual Product Name: Sauce Labs Backpack
+2025-02-18 21:37:52 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Expected Product Name: Test.allTheThings() T-Shirt (Red)
+2025-02-18 21:37:52 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Comparison: Sauce Labs Backpack - Test.allTheThings() T-Shirt (Red)
+2025-02-18 21:45:40 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Actual Product Name: Sauce Labs Backpack
+2025-02-18 21:45:40 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Expected Product Name: Sauce Labs Backpack
+2025-02-18 21:45:40 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Comparison: Sauce Labs Backpack - Sauce Labs Backpack
+2025-02-18 21:45:40 [main] INFO  com.pragmatic.selenium.test.ProductTest - Product name matches: Sauce Labs Backpack
+2025-02-18 21:45:40 [main] INFO  com.pragmatic.selenium.test.ProductTest - Product price matches: $29.99
+2025-02-18 21:45:40 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Actual Product Name: Sauce Labs Bike Light
+2025-02-18 21:45:40 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Expected Product Name: Sauce Labs Backpack
+2025-02-18 21:45:40 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Comparison: Sauce Labs Bike Light - Sauce Labs Backpack
+2025-02-18 21:45:43 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Actual Product Name: Sauce Labs Backpack
+2025-02-18 21:45:43 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Expected Product Name: Sauce Labs Bike Light
+2025-02-18 21:45:43 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Comparison: Sauce Labs Backpack - Sauce Labs Bike Light
+2025-02-18 21:45:45 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Actual Product Name: Sauce Labs Backpack
+2025-02-18 21:45:45 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Expected Product Name: Sauce Labs Bolt T-Shirt
+2025-02-18 21:45:45 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Comparison: Sauce Labs Backpack - Sauce Labs Bolt T-Shirt
+2025-02-18 21:45:48 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Actual Product Name: Sauce Labs Backpack
+2025-02-18 21:45:48 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Expected Product Name: Sauce Labs Fleece Jacket
+2025-02-18 21:45:48 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Comparison: Sauce Labs Backpack - Sauce Labs Fleece Jacket
+2025-02-18 21:46:42 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Actual Product Name: Sauce Labs Backpack
+2025-02-18 21:46:42 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Expected Product Name: Sauce Labs Backpack
+2025-02-18 21:46:42 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Comparison: Sauce Labs Backpack - Sauce Labs Backpack
+2025-02-18 21:46:42 [main] INFO  com.pragmatic.selenium.test.ProductTest - Product name matches: Sauce Labs Backpack
+2025-02-18 21:46:42 [main] INFO  com.pragmatic.selenium.test.ProductTest - Product price matches: $29.99
+2025-02-18 21:46:42 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Actual Product Name: Sauce Labs Bike Light
+2025-02-18 21:46:42 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Expected Product Name: Sauce Labs Backpack
+2025-02-18 21:46:42 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Comparison: Sauce Labs Bike Light - Sauce Labs Backpack
+2025-02-18 21:46:45 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Actual Product Name: Sauce Labs Backpack
+2025-02-18 21:46:45 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Expected Product Name: Sauce Labs Bike Light
+2025-02-18 21:46:45 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Comparison: Sauce Labs Backpack - Sauce Labs Bike Light
+2025-02-18 21:46:48 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Actual Product Name: Sauce Labs Backpack
+2025-02-18 21:46:48 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Expected Product Name: Sauce Labs Bolt T-Shirt
+2025-02-18 21:46:48 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Comparison: Sauce Labs Backpack - Sauce Labs Bolt T-Shirt
+2025-02-18 21:46:50 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Actual Product Name: Sauce Labs Backpack
+2025-02-18 21:46:50 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Expected Product Name: Sauce Labs Fleece Jacket
+2025-02-18 21:46:50 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Comparison: Sauce Labs Backpack - Sauce Labs Fleece Jacket
+2025-02-18 21:46:53 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Actual Product Name: Sauce Labs Backpack
+2025-02-18 21:46:53 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Expected Product Name: Sauce Labs Onesie
+2025-02-18 21:46:53 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Comparison: Sauce Labs Backpack - Sauce Labs Onesie
+2025-02-18 21:46:56 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Actual Product Name: Sauce Labs Backpack
+2025-02-18 21:46:56 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Expected Product Name: Test.allTheThings() T-Shirt (Red)
+2025-02-18 21:46:56 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Comparison: Sauce Labs Backpack - Test.allTheThings() T-Shirt (Red)
+2025-02-19 13:24:29 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Actual Product Name: Sauce Labs Backpack
+2025-02-19 13:24:29 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Expected Product Name: Sauce Labs Backpack
+2025-02-19 13:24:29 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Comparison: Sauce Labs Backpack - Sauce Labs Backpack
+2025-02-19 13:24:29 [main] INFO  com.pragmatic.selenium.test.ProductTest - Product name matches: Sauce Labs Backpack
+2025-02-19 13:24:29 [main] INFO  com.pragmatic.selenium.test.ProductTest - Product price matches: $29.99
+2025-02-19 13:24:29 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Actual Product Name: Sauce Labs Bike Light
+2025-02-19 13:24:29 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Expected Product Name: Sauce Labs Backpack
+2025-02-19 13:24:29 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Comparison: Sauce Labs Bike Light - Sauce Labs Backpack
+2025-02-19 13:24:33 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Actual Product Name: Sauce Labs Backpack
+2025-02-19 13:24:33 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Expected Product Name: Sauce Labs Bike Light
+2025-02-19 13:24:33 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Comparison: Sauce Labs Backpack - Sauce Labs Bike Light
+2025-02-19 13:24:38 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Actual Product Name: Sauce Labs Backpack
+2025-02-19 13:24:38 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Expected Product Name: Sauce Labs Bolt T-Shirt
+2025-02-19 13:24:38 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Comparison: Sauce Labs Backpack - Sauce Labs Bolt T-Shirt
+2025-02-19 13:24:42 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Actual Product Name: Sauce Labs Backpack
+2025-02-19 13:24:42 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Expected Product Name: Sauce Labs Fleece Jacket
+2025-02-19 13:24:42 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Comparison: Sauce Labs Backpack - Sauce Labs Fleece Jacket
+2025-02-19 13:24:47 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Actual Product Name: Sauce Labs Backpack
+2025-02-19 13:24:47 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Expected Product Name: Sauce Labs Onesie
+2025-02-19 13:24:47 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Comparison: Sauce Labs Backpack - Sauce Labs Onesie
+2025-02-19 13:24:50 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Actual Product Name: Sauce Labs Backpack
+2025-02-19 13:24:50 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Expected Product Name: Test.allTheThings() T-Shirt (Red)
+2025-02-19 13:24:50 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Comparison: Sauce Labs Backpack - Test.allTheThings() T-Shirt (Red)
+2025-02-19 13:35:31 [main] INFO  com.pragmatic.selenium.test.ProductTest - Starting test for Product Details
+2025-02-19 13:35:32 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Retrieved - Name: Sauce Labs Backpack, Price: $29.99
+2025-02-19 13:35:32 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Expected - Name: Sauce Labs Backpack, Price: $29.99
+2025-02-19 13:35:35 [main] INFO  com.pragmatic.selenium.test.ProductTest - Starting test for Product Details
+2025-02-19 13:35:35 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Retrieved - Name: Sauce Labs Backpack, Price: $29.99
+2025-02-19 13:35:35 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Expected - Name: Sauce Labs Bike Light, Price: $9.99
+2025-02-19 13:35:39 [main] INFO  com.pragmatic.selenium.test.ProductTest - Starting test for Product Details
+2025-02-19 13:35:39 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Retrieved - Name: Sauce Labs Backpack, Price: $29.99
+2025-02-19 13:35:39 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Expected - Name: Sauce Labs Bolt T-Shirt, Price: $15.99
+2025-02-19 13:35:43 [main] INFO  com.pragmatic.selenium.test.ProductTest - Starting test for Product Details
+2025-02-19 13:35:43 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Retrieved - Name: Sauce Labs Backpack, Price: $29.99
+2025-02-19 13:35:43 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Expected - Name: Sauce Labs Fleece Jacket, Price: $49.99
+2025-02-19 13:35:47 [main] INFO  com.pragmatic.selenium.test.ProductTest - Starting test for Product Details
+2025-02-19 13:35:47 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Retrieved - Name: Sauce Labs Backpack, Price: $29.99
+2025-02-19 13:35:47 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Expected - Name: Sauce Labs Onesie, Price: $7.99
+2025-02-19 13:35:51 [main] INFO  com.pragmatic.selenium.test.ProductTest - Starting test for Product Details
+2025-02-19 13:35:51 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Retrieved - Name: Sauce Labs Backpack, Price: $29.99
+2025-02-19 13:35:51 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Expected - Name: Test.allTheThings() T-Shirt (Red), Price: $15.99
+2025-02-19 13:41:55 [main] INFO  com.pragmatic.selenium.test.ProductTest - Starting test for Product Details
+2025-02-19 13:41:56 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Retrieved - Name: Sauce Labs Backpack, Price: $29.99
+2025-02-19 13:41:56 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Expected - Name: Sauce Labs Backpack, Price: $29.99
+2025-02-19 13:41:56 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Retrieved - Name: Sauce Labs Bike Light, Price: $9.99
+2025-02-19 13:41:56 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Expected - Name: Sauce Labs Backpack, Price: $29.99
+2025-02-19 13:41:59 [main] INFO  com.pragmatic.selenium.test.ProductTest - Starting test for Product Details
+2025-02-19 13:42:00 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Retrieved - Name: Sauce Labs Backpack, Price: $29.99
+2025-02-19 13:42:00 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Expected - Name: Sauce Labs Bike Light, Price: $9.99
+2025-02-19 13:42:04 [main] INFO  com.pragmatic.selenium.test.ProductTest - Starting test for Product Details
+2025-02-19 13:42:04 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Retrieved - Name: Sauce Labs Backpack, Price: $29.99
+2025-02-19 13:42:04 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Expected - Name: Sauce Labs Bolt T-Shirt, Price: $15.99
+2025-02-19 13:42:08 [main] INFO  com.pragmatic.selenium.test.ProductTest - Starting test for Product Details
+2025-02-19 13:42:08 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Retrieved - Name: Sauce Labs Backpack, Price: $29.99
+2025-02-19 13:42:08 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Expected - Name: Sauce Labs Fleece Jacket, Price: $49.99
+2025-02-19 13:42:12 [main] INFO  com.pragmatic.selenium.test.ProductTest - Starting test for Product Details
+2025-02-19 13:42:12 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Retrieved - Name: Sauce Labs Backpack, Price: $29.99
+2025-02-19 13:42:12 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Expected - Name: Sauce Labs Onesie, Price: $7.99
+2025-02-19 13:42:16 [main] INFO  com.pragmatic.selenium.test.ProductTest - Starting test for Product Details
+2025-02-19 13:42:16 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Retrieved - Name: Sauce Labs Backpack, Price: $29.99
+2025-02-19 13:42:16 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Expected - Name: Test.allTheThings() T-Shirt (Red), Price: $15.99
+2025-02-19 13:43:03 [main] INFO  com.pragmatic.selenium.test.ProductTest - Starting test for Product Details
+2025-02-19 13:43:03 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Retrieved - Name: Sauce Labs Backpack, Price: $29.99
+2025-02-19 13:43:03 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Expected - Name: Sauce Labs Backpack, Price: $29.99
+2025-02-19 13:43:03 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Retrieved - Name: Sauce Labs Bike Light, Price: $9.99
+2025-02-19 13:43:03 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Expected - Name: Sauce Labs Backpack, Price: $29.99
+2025-02-19 13:46:11 [main] INFO  com.pragmatic.selenium.test.ProductTest - Starting test for Product Details
+2025-02-19 13:46:11 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Retrieved - Name: Sauce Labs Backpack, Price: $29.99
+2025-02-19 13:46:11 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Expected - Name: Sauce Labs Backpack, Price: $29.99
+2025-02-19 13:46:11 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Retrieved - Name: Sauce Labs Bike Light, Price: $9.99
+2025-02-19 13:46:11 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Expected - Name: Sauce Labs Backpack, Price: $29.99
+2025-02-19 13:56:44 [main] INFO  com.pragmatic.selenium.test.ProductTest - Starting test for Product Details
+2025-02-19 13:56:48 [main] INFO  com.pragmatic.selenium.test.ProductTest - Starting test for Product Details
+2025-02-19 13:57:55 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Expected - Name: Sauce Labs Backpack, Price: $29.99
+2025-02-19 13:57:55 [main] INFO  com.pragmatic.selenium.test.ProductTest - Starting test for Product Details
+2025-02-19 13:57:59 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Expected - Name: Sauce Labs Bike Light, Price: $9.99
+2025-02-19 13:57:59 [main] INFO  com.pragmatic.selenium.test.ProductTest - Starting test for Product Details
+2025-02-19 13:58:04 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Expected - Name: Sauce Labs Bolt T-Shirt, Price: $15.99
+2025-02-19 13:58:04 [main] INFO  com.pragmatic.selenium.test.ProductTest - Starting test for Product Details
+2025-02-19 13:58:08 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Expected - Name: Sauce Labs Fleece Jacket, Price: $49.99
+2025-02-19 13:58:08 [main] INFO  com.pragmatic.selenium.test.ProductTest - Starting test for Product Details
+2025-02-19 13:58:12 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Expected - Name: Sauce Labs Onesie, Price: $7.99
+2025-02-19 13:58:12 [main] INFO  com.pragmatic.selenium.test.ProductTest - Starting test for Product Details
+2025-02-19 13:58:16 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Expected - Name: Test.allTheThings() T-Shirt (Red), Price: $15.99
+2025-02-19 13:58:16 [main] INFO  com.pragmatic.selenium.test.ProductTest - Starting test for Product Details
+2025-02-19 13:59:09 [main] INFO  com.pragmatic.selenium.test.ProductTest - Starting test for Product Details
+2025-02-19 13:59:13 [main] INFO  com.pragmatic.selenium.test.ProductTest - Starting test for Product Details
+2025-02-19 13:59:17 [main] INFO  com.pragmatic.selenium.test.ProductTest - Starting test for Product Details
+2025-02-19 13:59:21 [main] INFO  com.pragmatic.selenium.test.ProductTest - Starting test for Product Details
+2025-02-19 13:59:25 [main] INFO  com.pragmatic.selenium.test.ProductTest - Starting test for Product Details
+2025-02-19 13:59:29 [main] INFO  com.pragmatic.selenium.test.ProductTest - Starting test for Product Details
+2025-02-19 14:20:01 [main] INFO  com.pragmatic.selenium.test.ProductTest - Expected Product Name: Sauce Labs Backpack
+2025-02-19 14:20:01 [main] INFO  com.pragmatic.selenium.test.ProductTest - Expected Product Price: $29.99
+2025-02-19 14:20:01 [main] INFO  com.pragmatic.selenium.test.ProductTest - Starting test for Product Details
+2025-02-19 14:20:01 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Expected - Name: Sauce Labs Backpack, Price: $29.99
+2025-02-19 14:20:01 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Expected - Name: Sauce Labs Backpack, Price: $29.99
+2025-02-19 14:20:05 [main] INFO  com.pragmatic.selenium.test.ProductTest - Expected Product Name: Sauce Labs Bike Light
+2025-02-19 14:20:05 [main] INFO  com.pragmatic.selenium.test.ProductTest - Expected Product Price: $9.99
+2025-02-19 14:20:05 [main] INFO  com.pragmatic.selenium.test.ProductTest - Starting test for Product Details
+2025-02-19 14:20:06 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Expected - Name: Sauce Labs Bike Light, Price: $9.99
+2025-02-19 14:20:09 [main] INFO  com.pragmatic.selenium.test.ProductTest - Expected Product Name: Sauce Labs Bolt T-Shirt
+2025-02-19 14:20:09 [main] INFO  com.pragmatic.selenium.test.ProductTest - Expected Product Price: $15.99
+2025-02-19 14:20:09 [main] INFO  com.pragmatic.selenium.test.ProductTest - Starting test for Product Details
+2025-02-19 14:20:10 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Expected - Name: Sauce Labs Bolt T-Shirt, Price: $15.99
+2025-02-19 14:20:14 [main] INFO  com.pragmatic.selenium.test.ProductTest - Expected Product Name: Sauce Labs Fleece Jacket
+2025-02-19 14:20:14 [main] INFO  com.pragmatic.selenium.test.ProductTest - Expected Product Price: $49.99
+2025-02-19 14:20:14 [main] INFO  com.pragmatic.selenium.test.ProductTest - Starting test for Product Details
+2025-02-19 14:20:14 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Expected - Name: Sauce Labs Fleece Jacket, Price: $49.99
+2025-02-19 14:20:18 [main] INFO  com.pragmatic.selenium.test.ProductTest - Expected Product Name: Sauce Labs Onesie
+2025-02-19 14:20:18 [main] INFO  com.pragmatic.selenium.test.ProductTest - Expected Product Price: $7.99
+2025-02-19 14:20:18 [main] INFO  com.pragmatic.selenium.test.ProductTest - Starting test for Product Details
+2025-02-19 14:20:18 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Expected - Name: Sauce Labs Onesie, Price: $7.99
+2025-02-19 14:20:22 [main] INFO  com.pragmatic.selenium.test.ProductTest - Expected Product Name: Test.allTheThings() T-Shirt (Red)
+2025-02-19 14:20:22 [main] INFO  com.pragmatic.selenium.test.ProductTest - Expected Product Price: $15.99
+2025-02-19 14:20:22 [main] INFO  com.pragmatic.selenium.test.ProductTest - Starting test for Product Details
+2025-02-19 14:20:22 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Expected - Name: Test.allTheThings() T-Shirt (Red), Price: $15.99
+2025-02-19 14:23:53 [main] INFO  com.pragmatic.selenium.test.ProductTest - Expected Product Name: Sauce Labs Backpack
+2025-02-19 14:23:53 [main] INFO  com.pragmatic.selenium.test.ProductTest - Expected Product Price: $29.99
+2025-02-19 14:23:53 [main] INFO  com.pragmatic.selenium.test.ProductTest - Starting test for Product Details
+2025-02-19 14:23:53 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Expected - Name: Sauce Labs Backpack, Price: $29.99
+2025-02-19 14:23:53 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Expected - Name: Sauce Labs Backpack, Price: $29.99
+2025-02-19 14:23:57 [main] INFO  com.pragmatic.selenium.test.ProductTest - Expected Product Name: Sauce Labs Bike Light
+2025-02-19 14:23:57 [main] INFO  com.pragmatic.selenium.test.ProductTest - Expected Product Price: $9.99
+2025-02-19 14:23:57 [main] INFO  com.pragmatic.selenium.test.ProductTest - Starting test for Product Details
+2025-02-19 14:23:57 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Expected - Name: Sauce Labs Bike Light, Price: $9.99
+2025-02-19 14:24:01 [main] INFO  com.pragmatic.selenium.test.ProductTest - Expected Product Name: Sauce Labs Bolt T-Shirt
+2025-02-19 14:24:01 [main] INFO  com.pragmatic.selenium.test.ProductTest - Expected Product Price: $15.99
+2025-02-19 14:24:01 [main] INFO  com.pragmatic.selenium.test.ProductTest - Starting test for Product Details
+2025-02-19 14:24:01 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Expected - Name: Sauce Labs Bolt T-Shirt, Price: $15.99
+2025-02-19 14:24:05 [main] INFO  com.pragmatic.selenium.test.ProductTest - Expected Product Name: Sauce Labs Fleece Jacket
+2025-02-19 14:24:05 [main] INFO  com.pragmatic.selenium.test.ProductTest - Expected Product Price: $49.99
+2025-02-19 14:24:05 [main] INFO  com.pragmatic.selenium.test.ProductTest - Starting test for Product Details
+2025-02-19 14:24:05 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Expected - Name: Sauce Labs Fleece Jacket, Price: $49.99
+2025-02-19 14:24:09 [main] INFO  com.pragmatic.selenium.test.ProductTest - Expected Product Name: Sauce Labs Onesie
+2025-02-19 14:24:09 [main] INFO  com.pragmatic.selenium.test.ProductTest - Expected Product Price: $7.99
+2025-02-19 14:24:09 [main] INFO  com.pragmatic.selenium.test.ProductTest - Starting test for Product Details
+2025-02-19 14:24:09 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Expected - Name: Sauce Labs Onesie, Price: $7.99
+2025-02-19 14:24:13 [main] INFO  com.pragmatic.selenium.test.ProductTest - Expected Product Name: Test.allTheThings() T-Shirt (Red)
+2025-02-19 14:24:13 [main] INFO  com.pragmatic.selenium.test.ProductTest - Expected Product Price: $15.99
+2025-02-19 14:24:13 [main] INFO  com.pragmatic.selenium.test.ProductTest - Starting test for Product Details
+2025-02-19 14:24:13 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Expected - Name: Test.allTheThings() T-Shirt (Red), Price: $15.99
+2025-02-19 15:04:28 [main] INFO  com.pragmatic.selenium.test.ProductTest - Starting test for Product Details

@@ -1,6 +1,7 @@
 package com.pragmatic.selenium.selenium;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
@@ -16,11 +17,13 @@ public class SwagLabsTest extends BaseTest {
     //WebDriver webDriver;
 
 
+
+
     @Test(dataProvider = "Invalid_Credentials", dataProviderClass = DataProviderSauceLabs.class)
     public void testInvalidUserLogin(String username, String password, String expectedMessage) {
         webDriver.findElement(By.id("user-name")).sendKeys(username);
         webDriver.findElement(By.id("password")).sendKeys(password);
-        Button button=new Button(webDriver.findElement(By.id("login-button")));
+        Button button = new Button(webDriver.findElement(By.id("login-button")));
         button.click();
         //webDriver.findElement(By.id("login-button")).click();
         String errorMessage = webDriver.findElement(By.cssSelector("h3[data-test='error']")).getText();
@@ -31,11 +34,11 @@ public class SwagLabsTest extends BaseTest {
     @Test(dataProvider = "valid_Credentials", dataProviderClass = DataProviderSauceLabs.class)
     public void testValidUser(String username, String password) {
 
-        WebDriverWait wait = new WebDriverWait(webDriver, Duration.ofSeconds(10), Duration.ofMillis(50));
-        //Wait to visible username filed
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("user-name")));
+    // method is using default time out value
+    WebElement userNameTextBox= waitForElement(By.id("user-name"));
+    userNameTextBox.sendKeys(username);
 
-        webDriver.findElement(By.id("user-name")).sendKeys(username);
+
         webDriver.findElement(By.id("password")).sendKeys(password);
         webDriver.findElement(By.id("login-button")).click();
 
@@ -106,7 +109,7 @@ public class SwagLabsTest extends BaseTest {
 
         // Assert that the title matches the expected title passed as parameter
         Assert.assertEquals(title, eTitle, "Product title does not match the expected one.");
-       // System.out.println(title);
+        // System.out.println(title);
     }
 
 
@@ -115,8 +118,8 @@ public class SwagLabsTest extends BaseTest {
     public void testProductsData() {
 
         WebDriverWait wait = new WebDriverWait(webDriver, Duration.ofSeconds(10), Duration.ofMillis(50));
-
-        webDriver.findElement(By.cssSelector("#add-to-cart-sauce-labs-backpack")).click();
+        WebElement text= waitForElement(By.cssSelector("#add-to-cart-sauce-labs-backpack"));
+        text.click();
         webDriver.findElement(By.cssSelector("#add-to-cart-sauce-labs-bike-light")).click();
 
         String btnName = webDriver.findElement(By.id("remove-sauce-labs-backpack")).getText();
@@ -148,6 +151,7 @@ public class SwagLabsTest extends BaseTest {
         Assert.assertEquals(webDriver.findElement(By.cssSelector("[data-test='item-1-title-link']")).getText(), "Sauce Labs Bolt T-Shirt");
         Assert.assertEquals(webDriver.findElement(By.cssSelector("[data-test='item-5-title-link']")).getText(), "Sauce Labs Fleece Jacket");
 
+
         //Test Case 3.2: Verify that removing a product from the cart updates the cart count and removes it from the cart page.
         webDriver.findElement(By.cssSelector("[data-test='remove-sauce-labs-backpack']")).click();
         Assert.assertEquals(webDriver.findElement(By.cssSelector("[data-test='shopping-cart-badge']")).getText(), "3");
@@ -164,6 +168,7 @@ public class SwagLabsTest extends BaseTest {
         //Test Case 3.4: Verify the "Checkout" button navigates to the checkout page.
         webDriver.findElement(By.cssSelector("[data-test='checkout']")).click();
         Assert.assertEquals(webDriver.findElement(By.cssSelector("[data-test='title']")).getText(), "Checkout: Your Information");
+        //
 
         // Test Case 4.2: Verify entering valid information on the checkout information page allows proceeding to the next step.
 
@@ -201,7 +206,7 @@ public class SwagLabsTest extends BaseTest {
         webDriver.findElement(By.cssSelector("[data-test='shopping-cart-link']")).click();
     }
 
-
+    //Test Case 4.3: Verify the order summary page displays the correct list of items, prices, and total.
     @Test
     public void orderSummary() {
         WebDriverWait wait = new WebDriverWait(webDriver, Duration.ofSeconds(10));
@@ -212,7 +217,7 @@ public class SwagLabsTest extends BaseTest {
         double boldTPrice = getPriceOfProduct("Sauce Labs Bolt T-Shirt");
         double fleeceJacketPrice = getPriceOfProduct("Sauce Labs Fleece Jacket");
 
-       //System.out.println(boldTPrice + fleeceJacketPrice + backPackPrice + bikeLightPrice);
+        //System.out.println(boldTPrice + fleeceJacketPrice + backPackPrice + bikeLightPrice);
         clickShoppingCart();
         webDriver.findElement(By.cssSelector("[data-test='checkout']")).click();
 
@@ -228,7 +233,7 @@ public class SwagLabsTest extends BaseTest {
 
         // Extract the numerical values from the text
         double itemSubTotal = extractAmount(ItemSubTotal);
-       // System.out.println("item total:" + itemSubTotal);
+        // System.out.println("item total:" + itemSubTotal);
         double tax = extractAmount(ItemTax);
         //System.out.println("Tax:" + tax);
         double total = extractAmount(ItemTotal);
@@ -264,10 +269,40 @@ public class SwagLabsTest extends BaseTest {
         return Double.parseDouble(text.replaceAll("[^\\d.]", ""));
     }
 
+    //Test Case 4.4: Verify the "Finish" button completes the order and displays the confirmation message.
+
+    @Test
+    public void orderComplete() {
+
+        clickShoppingCart();
+        webDriver.findElement(By.id("checkout")).click();
+
+        webDriver.findElement(By.cssSelector("[data-test='firstName']")).sendKeys(generateFirstName());
+        webDriver.findElement(By.cssSelector("[data-test='lastName']")).sendKeys(generateLastName());
+        webDriver.findElement(By.cssSelector("[data-test='postalCode']")).sendKeys(generatePostalCode());
+        webDriver.findElement(By.cssSelector("[data-test='continue']")).click();
+        webDriver.findElement(By.cssSelector("[data-test='finish']")).click();
+
+
+        //Assert.assertEquals(webDriver.findElement(By.cssSelector("[data-test='title']")).getText(), "Checkout: Complete!");
+        //WebElement pageTitle= webDriver.findElement(new ByText("Checkout: Complete!"));
+        // WebElement pageTitle= webDriver.findElement(new LocateElementByText("Checkout: Complete!"));
+       WebElement pageTitle = webDriver.findElement(new ByPartialText("Complete"));
+        System.out.println(pageTitle);
+        Assert.assertEquals(webDriver.findElement(By.cssSelector("[data-test='complete-header']")).getText(), "Thank you for your order!");
+        Assert.assertEquals(webDriver.findElement(By.cssSelector("[data-test='complete-text']")).getText(), "Your order has been dispatched, and will arrive just as fast as the pony can get there!");
+
+        Button button = new Button(webDriver.findElement(By.id("back-to-products")));
+        Assert.assertTrue(button.isEnabled(), "Back button should be enabled ");
+        button.click();
+        Assert.assertTrue(webDriver.getCurrentUrl().contains("https://www.saucedemo.com/inventory.html"), "The URL should contain 'products' after clicking the button.");
+
+    }
+
         /*
 4Checkout Process
 
-    Test Case 4.3: Verify the order summary page displays the correct list of items, prices, and total.
+
     Test Case 4.4: Verify the "Finish" button completes the order and displays the confirmation message.
     Test Case 4.5: Verify the "Cancel" button navigates back to the cart page.*/
 }

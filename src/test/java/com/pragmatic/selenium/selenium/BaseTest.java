@@ -3,16 +3,20 @@ package com.pragmatic.selenium.selenium;
 import net.datafaker.Faker;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
 
 import javax.swing.text.html.Option;
 import java.lang.reflect.Method;
+import java.time.Duration;
 
 public class BaseTest {
     WebDriver webDriver;
@@ -51,6 +55,14 @@ public class BaseTest {
         webDriver.quit();
     }
 
+    public WebElement waitForElement(By locator){
+        //time out duration 10s
+        Duration duration=Duration.ofSeconds(10);
+        // Create a WebDriverWait instance with default timeout
+        WebDriverWait wait=new WebDriverWait(webDriver,duration);
+        //wait until element is visible
+        return wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+    }
 
     public void login(String username, String password) {
         webDriver.findElement(By.id("user-name")).sendKeys(username);

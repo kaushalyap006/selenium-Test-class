@@ -3,7 +3,7 @@
     <parameter name="browser" value="firefox"/>
     <parameter name="headless" value="true"/>
 
-    <test name="test-in-firefox" enabled="true">
+    <test name="test-in-firefox" enabled="false">
         <packages>
             <package name="com.pragmatic.selenium.selenium"/>
         </packages>
@@ -20,13 +20,14 @@
     </test>
 
 
-    <test name="test-3-methods" enabled="false">
+    <test name="test-new method" enabled="false">
 
 
         <classes>
             <class name="com.pragmatic.selenium.testng.TestNgExampleTwo">
                 <methods>
-                    <include name="testMethod1"/>
+                    <parameter name="browser" value="chrome"/>
+                    <include name="orderComplete"/>
 
                 </methods>
             </class>
