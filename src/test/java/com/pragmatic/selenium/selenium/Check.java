@@ -45,10 +45,7 @@ public class Check implements ICheck, WrapsElement {
         }
     }
 
-    @Override
-    public void toggle() {
-        checkBox.click();
-    }
+
 
     @Override
     public WebElement getWrappedElement() {

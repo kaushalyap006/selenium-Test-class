@@ -15,6 +15,5 @@ public interface ICheck {
 
     void uncheck();
 
-    void toggle();
 
 }
