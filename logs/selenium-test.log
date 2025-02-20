@@ -466,3 +466,102 @@
 2025-02-19 14:24:13 [main] INFO  com.pragmatic.selenium.test.ProductTest - Starting test for Product Details
 2025-02-19 14:24:13 [main] DEBUG com.pragmatic.selenium.test.ProductTest - Expected - Name: Test.allTheThings() T-Shirt (Red), Price: $15.99
 2025-02-19 15:04:28 [main] INFO  com.pragmatic.selenium.test.ProductTest - Starting test for Product Details
+2025-02-20 11:14:15 [main] DEBUG com.pragmatic.selenium.test.SauceLoginTest - Landing page Title is:Products
+2025-02-20 12:05:35 [main] DEBUG com.pragmatic.selenium.test.SauceLoginTest - Landing page Title is:Products
+2025-02-20 12:34:57 [main] DEBUG com.pragmatic.selenium.test.SauceLoginTest - Landing page Title is:Products
+2025-02-20 12:43:16 [main] DEBUG com.pragmatic.selenium.test.SauceLoginTest - Landing page Title is:Products
+2025-02-20 12:48:44 [main] DEBUG com.pragmatic.selenium.test.SauceLoginTest - Expected -Error messageEpic sadface: Username is requiredActual Error messageEpic sadface: Username is required
+2025-02-20 12:48:47 [main] DEBUG com.pragmatic.selenium.test.SauceLoginTest - Expected -Error messageEpic sadface: Username and password do not match any user in this serviceActual Error messageEpic sadface: Username and password do not match any user in this service
+2025-02-20 12:48:51 [main] DEBUG com.pragmatic.selenium.test.SauceLoginTest - Expected -Error messageEpic sadface: Username and password do not match any user in this serviceActual Error messageEpic sadface: Username and password do not match any user in this service
+2025-02-20 12:48:55 [main] DEBUG com.pragmatic.selenium.test.SauceLoginTest - Expected -Error messageEpic sadface: Sorry, this user has been locked out.Actual Error messageEpic sadface: Sorry, this user has been locked out.
+2025-02-20 12:48:58 [main] DEBUG com.pragmatic.selenium.test.SauceLoginTest - Expected -Error messageEpic sadface: Password is requiredActual Error messageEpic sadface: Password is required
+2025-02-20 12:50:00 [main] DEBUG com.pragmatic.selenium.test.SauceLoginTest - Expected -Error message:: Epic sadface: Username is requiredActual Error message:: Epic sadface: Username is required
+2025-02-20 12:51:05 [main] DEBUG com.pragmatic.selenium.test.SauceLoginTest - Expected -Error message:: Epic sadface: Username is required   Actual Error message:: Epic sadface: Username is required
+2025-02-20 12:52:04 [main] DEBUG com.pragmatic.selenium.test.SauceLoginTest - Expected Error Message:: Epic sadface: Username is required --  Actual Error Message:: Epic sadface: Username is required
+2025-02-20 13:00:57 [main] DEBUG com.pragmatic.selenium.test.SauceLoginTest - Expected Error Message:: Epic sadface: Username is required --  Actual Error Message:: Epic sadface: Username is required
+2025-02-20 13:01:01 [main] DEBUG com.pragmatic.selenium.test.SauceLoginTest - Expected Error Message:: Epic sadface: Username and password do not match any user in this service --  Actual Error Message:: Epic sadface: Username and password do not match any user in this service
+2025-02-20 13:01:05 [main] DEBUG com.pragmatic.selenium.test.SauceLoginTest - Expected Error Message:: Epic sadface: Username and password do not match any user in this service --  Actual Error Message:: Epic sadface: Username and password do not match any user in this service
+2025-02-20 13:01:09 [main] DEBUG com.pragmatic.selenium.test.SauceLoginTest - Expected Error Message:: Epic sadface: Sorry, this user has been locked out. --  Actual Error Message:: Epic sadface: Sorry, this user has been locked out.
+2025-02-20 13:01:13 [main] DEBUG com.pragmatic.selenium.test.SauceLoginTest - Expected Error Message:: Epic sadface: Password is required --  Actual Error Message:: Epic sadface: Password is required
+2025-02-20 13:01:17 [main] DEBUG com.pragmatic.selenium.test.SauceLoginTest - Landing page Title is:Products
+2025-02-20 16:56:06 [main] DEBUG com.pragmatic.selenium.pages.SauceLandingPage - Actual-Name: Sauce Labs Backpack, Price: $29.99
+2025-02-20 16:56:06 [main] DEBUG com.pragmatic.selenium.pages.SauceLandingPage - Expected-Name: Sauce Labs Backpack, Price: $29.99
+2025-02-20 16:56:06 [main] DEBUG com.pragmatic.selenium.pages.SauceLandingPage - Actual-Name: Sauce Labs Bike Light, Price: $9.99
+2025-02-20 16:56:06 [main] DEBUG com.pragmatic.selenium.pages.SauceLandingPage - Expected-Name: Sauce Labs Bike Light, Price: $9.99
+2025-02-20 16:56:06 [main] DEBUG com.pragmatic.selenium.pages.SauceLandingPage - Actual-Name: Sauce Labs Bolt T-Shirt, Price: $15.99
+2025-02-20 16:56:06 [main] DEBUG com.pragmatic.selenium.pages.SauceLandingPage - Expected-Name: Sauce Labs Bolt T-Shirt, Price: $15.99
+2025-02-20 16:56:06 [main] DEBUG com.pragmatic.selenium.pages.SauceLandingPage - Actual-Name: Sauce Labs Fleece Jacket, Price: $49.99
+2025-02-20 16:56:06 [main] DEBUG com.pragmatic.selenium.pages.SauceLandingPage - Expected-Name: Sauce Labs Fleece Jacket, Price: $49.99
+2025-02-20 16:56:06 [main] DEBUG com.pragmatic.selenium.pages.SauceLandingPage - Actual-Name: Sauce Labs Onesie, Price: $7.99
+2025-02-20 16:56:06 [main] DEBUG com.pragmatic.selenium.pages.SauceLandingPage - Expected-Name: Sauce Labs Onesie, Price: $7.99
+2025-02-20 16:56:06 [main] DEBUG com.pragmatic.selenium.pages.SauceLandingPage - Actual-Name: Test.allTheThings() T-Shirt (Red), Price: $15.99
+2025-02-20 16:56:06 [main] DEBUG com.pragmatic.selenium.pages.SauceLandingPage - Expected-Name: Test.allTheThings() T-Shirt (Red), Price: $15.99
+2025-02-20 17:14:28 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Actual-Name: Sauce Labs Backpack, Price: $29.99
+2025-02-20 17:14:28 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Expected-Name: Sauce Labs Backpack, Price: $29.99
+2025-02-20 17:14:28 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Actual-Name: Sauce Labs Bike Light, Price: $9.99
+2025-02-20 17:14:28 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Expected-Name: Sauce Labs Backpack, Price: $29.99
+2025-02-20 17:14:32 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Actual-Name: Sauce Labs Backpack, Price: $29.99
+2025-02-20 17:14:32 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Expected-Name: Sauce Labs Bike Light, Price: $9.99
+2025-02-20 17:54:18 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Actual-Name: Sauce Labs Backpack, Price: $29.99
+2025-02-20 17:54:18 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Expected-Name: Sauce Labs Backpack, Price: $29.99
+2025-02-20 17:54:18 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Actual-Name: Sauce Labs Bike Light, Price: $9.99
+2025-02-20 17:54:18 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Expected-Name: Sauce Labs Backpack, Price: $29.99
+2025-02-20 20:50:36 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Actual-Name: Sauce Labs Backpack, Price: $29.99
+2025-02-20 20:50:36 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Expected-Name: Sauce Labs Backpack, Price: $29.99
+2025-02-20 20:50:36 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Actual-Name: Sauce Labs Bike Light, Price: $9.99
+2025-02-20 20:50:52 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Actual-Name: Sauce Labs Backpack, Price: $29.99
+2025-02-20 20:50:52 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Expected-Name: Sauce Labs Bike Light, Price: $9.99
+2025-02-20 20:51:02 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Actual-Name: Sauce Labs Backpack, Price: $29.99
+2025-02-20 20:51:02 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Expected-Name: Sauce Labs Bolt T-Shirt, Price: $15.99
+2025-02-20 20:51:11 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Actual-Name: Sauce Labs Backpack, Price: $29.99
+2025-02-20 20:51:11 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Expected-Name: Sauce Labs Fleece Jacket, Price: $49.99
+2025-02-20 20:54:33 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Actual-Name: Sauce Labs Backpack, Price: $29.99
+2025-02-20 20:54:33 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Expected-Name: Sauce Labs Backpack, Price: $29.99
+2025-02-20 20:54:33 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Actual-Name: Sauce Labs Bike Light, Price: $9.99
+2025-02-20 20:54:47 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Actual-Name: Sauce Labs Backpack, Price: $29.99
+2025-02-20 20:54:47 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Expected-Name: Sauce Labs Bike Light, Price: $9.99
+2025-02-20 20:54:57 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Actual-Name: Sauce Labs Backpack, Price: $29.99
+2025-02-20 20:54:57 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Expected-Name: Sauce Labs Bolt T-Shirt, Price: $15.99
+2025-02-20 20:59:24 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Actual-Name: Sauce Labs Backpack, Price: $29.99
+2025-02-20 20:59:24 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Expected-Name: Sauce Labs Backpack, Price: $29.99
+2025-02-20 20:59:24 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Actual-Name: Sauce Labs Bike Light, Price: $9.99
+2025-02-20 20:59:29 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Actual-Name: Sauce Labs Backpack, Price: $29.99
+2025-02-20 20:59:29 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Expected-Name: Sauce Labs Bike Light, Price: $9.99
+2025-02-20 20:59:34 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Actual-Name: Sauce Labs Backpack, Price: $29.99
+2025-02-20 20:59:34 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Expected-Name: Sauce Labs Bolt T-Shirt, Price: $15.99
+2025-02-20 20:59:38 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Actual-Name: Sauce Labs Backpack, Price: $29.99
+2025-02-20 20:59:38 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Expected-Name: Sauce Labs Fleece Jacket, Price: $49.99
+2025-02-20 20:59:44 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Actual-Name: Sauce Labs Backpack, Price: $29.99
+2025-02-20 20:59:44 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Expected-Name: Sauce Labs Onesie, Price: $7.99
+2025-02-20 20:59:49 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Actual-Name: Sauce Labs Backpack, Price: $29.99
+2025-02-20 20:59:49 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Expected-Name: Test.allTheThings() T-Shirt (Red), Price: $15.99
+2025-02-20 21:04:15 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Actual-Name: Sauce Labs Backpack, Price: $29.99
+2025-02-20 21:04:15 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Expected-Name: Sauce Labs Backpack, Price: $29.99
+2025-02-20 21:04:15 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Actual-Name: Sauce Labs Bike Light, Price: $9.99
+2025-02-20 21:04:15 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Actual-Name: Sauce Labs Bolt T-Shirt, Price: $15.99
+2025-02-20 21:04:16 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Actual-Name: Sauce Labs Fleece Jacket, Price: $49.99
+2025-02-20 21:04:16 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Actual-Name: Sauce Labs Onesie, Price: $7.99
+2025-02-20 21:04:16 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Actual-Name: Test.allTheThings() T-Shirt (Red), Price: $15.99
+2025-02-20 21:04:20 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Actual-Name: Sauce Labs Backpack, Price: $29.99
+2025-02-20 21:04:20 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Expected-Name: Sauce Labs Bike Light, Price: $9.99
+2025-02-20 21:04:24 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Actual-Name: Sauce Labs Backpack, Price: $29.99
+2025-02-20 21:04:24 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Expected-Name: Sauce Labs Bolt T-Shirt, Price: $15.99
+2025-02-20 21:04:28 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Actual-Name: Sauce Labs Backpack, Price: $29.99
+2025-02-20 21:04:28 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Expected-Name: Sauce Labs Fleece Jacket, Price: $49.99
+2025-02-20 21:04:32 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Actual-Name: Sauce Labs Backpack, Price: $29.99
+2025-02-20 21:04:32 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Expected-Name: Sauce Labs Onesie, Price: $7.99
+2025-02-20 21:04:36 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Actual-Name: Sauce Labs Backpack, Price: $29.99
+2025-02-20 21:04:36 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Expected-Name: Test.allTheThings() T-Shirt (Red), Price: $15.99
+2025-02-20 21:11:49 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Actual-Name: Sauce Labs Backpack, Price: $29.99
+2025-02-20 21:11:49 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Expected-Name: Sauce Labs Backpack, Price: $29.99
+2025-02-20 21:11:49 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Actual-Name: Sauce Labs Bike Light, Price: $9.99
+2025-02-20 21:11:49 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Actual-Name: Sauce Labs Bolt T-Shirt, Price: $15.99
+2025-02-20 21:11:49 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Actual-Name: Sauce Labs Fleece Jacket, Price: $49.99
+2025-02-20 21:11:49 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Actual-Name: Sauce Labs Onesie, Price: $7.99
+2025-02-20 21:11:49 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Actual-Name: Test.allTheThings() T-Shirt (Red), Price: $15.99
+2025-02-20 21:11:54 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Actual-Name: Sauce Labs Backpack, Price: $29.99
+2025-02-20 21:11:54 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Expected-Name: Sauce Labs Bike Light, Price: $9.99
+2025-02-20 21:11:58 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Actual-Name: Sauce Labs Backpack, Price: $29.99
+2025-02-20 21:11:58 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Expected-Name: Sauce Labs Bolt T-Shirt, Price: $15.99
+2025-02-20 21:12:03 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Actual-Name: Sauce Labs Backpack, Price: $29.99
+2025-02-20 21:12:03 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Expected-Name: Sauce Labs Fleece Jacket, Price: $49.99

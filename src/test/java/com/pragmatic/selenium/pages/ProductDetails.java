@@ -1,19 +1,26 @@
 package com.pragmatic.selenium.pages;
 
 public class ProductDetails {
-    private String name;
-    private String price;
+    String productName;
+    String productPrice;
+    //String ProductImage;
 
-    public ProductDetails(String name, String price){
-        this.name= name;
-        this.price= price;
+    public ProductDetails(String productName, String productPrice){
+        this.productName=productName;
+        this.productPrice=productPrice;
+        //this.productImage=productImage;
     }
 
-    public String getName(){
-        return name;
+    public String getProductName(){
+        return productName;
     }
-    public String getPrice(){
-        return price;
+
+    public String getProductPrice(){
+        return productPrice;
     }
+
+//    public String getProductImage(){
+//        return ProductImage
+//    }
+
 }
-
