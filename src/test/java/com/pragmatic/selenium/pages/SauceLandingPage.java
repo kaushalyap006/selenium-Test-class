@@ -6,25 +6,35 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import java.util.List;
+
 public class SauceLandingPage {
     WebDriver webDriver;
 
-    @FindBy(css="span.title")
+    @FindBy(css = "span.title")
     WebElement eleTitle;
 
-    By byProductName= By.className("inventory_item_name");
-    By byproductPrice= By.className("inventory_item_price");
+//    @FindBy(css = "[data-test='shopping-cart-badge']")
+//    WebElement cItem;
+
+    @FindBy(xpath = "//button[contains(@data-test, 'add-to-cart')]")
+    WebElement PButton;
+
+    By bycItem = By.cssSelector(".shopping_cart_badge");
+    By removeButton = By.xpath("//button[contains(@data-test, 'remove')]");
+    By byProductName = By.className("inventory_item_name");
+    By byproductPrice = By.className("inventory_item_price");
 
     public SauceLandingPage(WebDriver webDriver) {
-        this.webDriver=webDriver;
-        PageFactory.initElements(webDriver,this);
+        this.webDriver = webDriver;
+        PageFactory.initElements(webDriver, this);
     }
 
     public String getTitle() {
-      return   eleTitle.getText();
+        return eleTitle.getText();
     }
 
-// Method to get the product name from a specific product element
+    // Method to get the product name from a specific product element
     public String getProductName(WebElement product) {
         //return webDriver.findElement(byProductName).getText();
         return product.findElement(byProductName).getText();
@@ -34,4 +44,23 @@ public class SauceLandingPage {
         //return webDriver.findElement(byproductPrice).getText();
         return product.findElement(byproductPrice).getText();
     }
+
+    public String getNoOfItems() {
+        return webDriver.findElement(bycItem).getText();
+
+    }
+
+    public void clickAddToCartButton() {
+        List<WebElement> ProductItems = webDriver.findElements(By.xpath("//button[contains(@data-test, 'add-to-cart')]"));
+
+        for (int i = 0; i < ProductItems.size(); i++) {
+            WebElement item = ProductItems.get(i);
+            PButton.click();
+        }
+    }
+
+    public String getRemoveButtonText() {
+        return webDriver.findElement(removeButton).getText();
+    }
+
 }

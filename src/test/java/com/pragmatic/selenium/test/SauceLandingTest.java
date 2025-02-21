@@ -52,7 +52,7 @@ public class SauceLandingTest {
         List<ProductDetails> expectedProductList = new ArrayList<>();
 
         // Add expected products from the data provider to the list
-       // expectedProductList.add(new ProductDetails(exName, exPrice));
+        // expectedProductList.add(new ProductDetails(exName, exPrice));
 
 
         //loop through each element
@@ -73,8 +73,29 @@ public class SauceLandingTest {
 
 
             //Assert that the actual product details match with expected product details
-            Assert.assertEquals(actualProductName, exName,"product Name doesn't match");
-            Assert.assertEquals(actualPriceName, exPrice,"Product Price doesn't match");
+            Assert.assertEquals(actualProductName, exName, "product Name doesn't match");
+            Assert.assertEquals(actualPriceName, exPrice, "Product Price doesn't match");
 
-        }}}
+        }
+    }
+
+    //Verify no of items which is displayed in cart icon
+    @Test
+    public void getNumberOfProducts() {
+        // Initialize SauceLandingPage object
+        SauceLandingPage landingPage = new SauceLandingPage(webDriver);
+        //Calling to clickAddToCartButton
+        landingPage.clickAddToCartButton();
+
+        Assert.assertEquals(landingPage.getRemoveButtonText(), "Remove");
+
+        String actualItems = landingPage.getNoOfItems();
+        Assert.assertEquals(actualItems, "6");
+        logger.debug("Items in cart: {}", actualItems);
+    }
 }
+
+
+
+
+

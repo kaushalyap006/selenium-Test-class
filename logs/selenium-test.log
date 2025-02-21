@@ -565,3 +565,28 @@
 2025-02-20 21:11:58 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Expected-Name: Sauce Labs Bolt T-Shirt, Price: $15.99
 2025-02-20 21:12:03 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Actual-Name: Sauce Labs Backpack, Price: $29.99
 2025-02-20 21:12:03 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Expected-Name: Sauce Labs Fleece Jacket, Price: $49.99
+2025-02-21 13:42:36 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Actual-Name: Sauce Labs Backpack, Price: $29.99
+2025-02-21 13:42:41 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Actual-Name: Sauce Labs Backpack, Price: $29.99
+2025-02-21 13:42:45 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Actual-Name: Sauce Labs Backpack, Price: null
+2025-02-21 13:42:49 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Actual-Name: Sauce Labs Backpack, Price: $29.99
+2025-02-21 14:39:12 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Actual-Name: Sauce Labs Backpack, Price: $29.99
+2025-02-21 14:39:16 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Actual-Name: Sauce Labs Backpack, Price: $29.99
+2025-02-21 14:39:20 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Actual-Name: Sauce Labs Backpack, Price: $29.99
+2025-02-21 14:39:24 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Actual-Name: Sauce Labs Backpack, Price: $29.99
+2025-02-21 14:39:28 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Actual-Name: Sauce Labs Backpack, Price: $29.99
+2025-02-21 14:39:32 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Actual-Name: Sauce Labs Backpack, Price: $29.99
+2025-02-21 14:44:57 [main] DEBUG com.pragmatic.selenium.test.SauceLoginTest - Expected Error Message:: Epic sadface: Username is required --  Actual Error Message:: Epic sadface: Username is required
+2025-02-21 14:45:01 [main] DEBUG com.pragmatic.selenium.test.SauceLoginTest - Expected Error Message:: Epic sadface: Username and password do not match any user in this service --  Actual Error Message:: Epic sadface: Username and password do not match any user in this service
+2025-02-21 14:45:05 [main] DEBUG com.pragmatic.selenium.test.SauceLoginTest - Expected Error Message:: Epic sadface: Username and password do not match any user in this service --  Actual Error Message:: Epic sadface: Username and password do not match any user in this service
+2025-02-21 14:45:09 [main] DEBUG com.pragmatic.selenium.test.SauceLoginTest - Expected Error Message:: Epic sadface: Sorry, this user has been locked out. --  Actual Error Message:: Epic sadface: Sorry, this user has been locked out.
+2025-02-21 14:45:13 [main] DEBUG com.pragmatic.selenium.test.SauceLoginTest - Expected Error Message:: Epic sadface: Password is required --  Actual Error Message:: Epic sadface: Password is required
+2025-02-21 15:09:28 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Items in cart: 1
+2025-02-21 15:12:25 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Items in cart: 1
+2025-02-21 15:35:42 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Items in cart: 1
+2025-02-21 15:56:56 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Items in cart: 1
+2025-02-21 15:59:22 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Items in cart: 1
+2025-02-21 16:13:47 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Items in cart: 1
+2025-02-21 16:15:03 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Items in cart: 1
+2025-02-21 16:24:46 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Items in cart: 6
+2025-02-21 17:04:45 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Items in cart: 6
+2025-02-21 17:09:08 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Items in cart: 6
