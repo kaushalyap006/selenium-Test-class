@@ -57,11 +57,13 @@ public class SauceLandingPage {
 
 
     public void clickAddToCartButton() {
+
         List<WebElement> ProductItems = webDriver.findElements(BypButton);
+
 
         for (int i = 0; i < ProductItems.size(); i++) {
             WebElement item = ProductItems.get(i);
-            PButton.click();
+            item.click();
         }
     }
 
