@@ -20,11 +20,15 @@ public class SauceLandingPage {
 //    @FindBy(xpath = "//button[contains(@data-test, 'add-to-cart')]")
 //    WebElement PButton;
 
+    @FindBy(css="[data-test='shopping-cart-link']")
+            WebElement shoppingCart;
+
     By BypButton = By.xpath("//button[contains(@data-test, 'add-to-cart')]");
     By bycItem = By.cssSelector(".shopping_cart_badge");
     By removeButton = By.xpath("//button[contains(@data-test, 'remove')]");
     By byProductName = By.className("inventory_item_name");
     By byproductPrice = By.className("inventory_item_price");
+
 
 
     public SauceLandingPage(WebDriver webDriver) {
@@ -59,8 +63,6 @@ public class SauceLandingPage {
     public void clickAddToCartButton() {
 
         List<WebElement> ProductItems = webDriver.findElements(BypButton);
-
-
         for (int i = 0; i < ProductItems.size(); i++) {
             WebElement item = ProductItems.get(i);
             item.click();
@@ -72,4 +74,7 @@ public class SauceLandingPage {
         return webDriver.findElement(removeButton).getText();
     }
 
+    public void  clickCart(){
+        shoppingCart.click();
+    }
 }

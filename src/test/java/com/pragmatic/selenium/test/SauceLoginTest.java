@@ -38,6 +38,7 @@ public class SauceLoginTest {
         SauceLandingPage landingPage = new SauceLandingPage(webDriver);
         String LandingPageHeading = landingPage.getTitle();
         assertEquals(LandingPageHeading, "Products", "Title doesn't match");
+        logger.info("Login page testing");
         logger.debug("Landing page Title is:{}", LandingPageHeading);
     }
 

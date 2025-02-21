@@ -60,7 +60,7 @@ public class SauceLandingTest {
             //Get the actual product name & price
             String actualProductName = landingPage.getProductName(product);
             String actualPriceName = landingPage.getPriceName(product);
-
+            logger.info("Landing page Testing");
             //Log actual Name and price
             logger.debug("Actual-Name: {}, Price: {}", actualProductName, actualPriceName);
 
