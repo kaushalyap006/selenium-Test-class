@@ -27,7 +27,6 @@ public class CartTest {
     }
 
 
-
     @Test
     public void getPageTitle(){
         CartPage cartpage=new CartPage(webDriver);

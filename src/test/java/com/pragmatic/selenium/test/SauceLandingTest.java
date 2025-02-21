@@ -31,12 +31,11 @@ public class SauceLandingTest {
         loginPage.typeUsername("standard_user").typePassword("secret_sauce").clickLogin();
     }
 
+
     @AfterMethod
     public void afterMethod() {
         webDriver.quit();
     }
-
-    //Get all the product name/price/image
 
 
     // Get all the product name/price/image
@@ -78,6 +77,7 @@ public class SauceLandingTest {
 
         }
     }
+
 
     //Verify no of items which is displayed in cart icon
     @Test

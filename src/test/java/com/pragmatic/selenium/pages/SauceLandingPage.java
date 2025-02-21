@@ -14,31 +14,36 @@ public class SauceLandingPage {
     @FindBy(css = "span.title")
     WebElement eleTitle;
 
-//    @FindBy(css = "[data-test='shopping-cart-badge']")
+//    @FindBy(css = "[data-test='.shopping-cart-badge']")
 //    WebElement cItem;
 
-    @FindBy(xpath = "//button[contains(@data-test, 'add-to-cart')]")
-    WebElement PButton;
+//    @FindBy(xpath = "//button[contains(@data-test, 'add-to-cart')]")
+//    WebElement PButton;
 
+    By BypButton = By.xpath("//button[contains(@data-test, 'add-to-cart')]");
     By bycItem = By.cssSelector(".shopping_cart_badge");
     By removeButton = By.xpath("//button[contains(@data-test, 'remove')]");
     By byProductName = By.className("inventory_item_name");
     By byproductPrice = By.className("inventory_item_price");
+
 
     public SauceLandingPage(WebDriver webDriver) {
         this.webDriver = webDriver;
         PageFactory.initElements(webDriver, this);
     }
 
+
     public String getTitle() {
         return eleTitle.getText();
     }
+
 
     // Method to get the product name from a specific product element
     public String getProductName(WebElement product) {
         //return webDriver.findElement(byProductName).getText();
         return product.findElement(byProductName).getText();
     }
+
 
     public String getPriceName(WebElement product) {
         //return webDriver.findElement(byproductPrice).getText();
@@ -50,14 +55,16 @@ public class SauceLandingPage {
 
     }
 
+
     public void clickAddToCartButton() {
-        List<WebElement> ProductItems = webDriver.findElements(By.xpath("//button[contains(@data-test, 'add-to-cart')]"));
+        List<WebElement> ProductItems = webDriver.findElements(BypButton);
 
         for (int i = 0; i < ProductItems.size(); i++) {
             WebElement item = ProductItems.get(i);
             PButton.click();
         }
     }
+
 
     public String getRemoveButtonText() {
         return webDriver.findElement(removeButton).getText();
