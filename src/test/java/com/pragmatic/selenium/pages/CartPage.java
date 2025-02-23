@@ -4,6 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 
 
 public class CartPage {
@@ -11,16 +12,65 @@ public class CartPage {
 
     @FindBy(css = ("[data-test-'title']"))
     WebElement pageHeading;
-    By byPageHeading = By.cssSelector("[data-test-'title']");
+
+    @FindBy(xpath = "//button[contains(@data-test, 'remove')]")
+    WebElement removeButton;
+
+    @FindBy(xpath = "//button[contains(@data-test,'continue-shopping')]")
+    WebElement continueButton;
+
+    @FindBy(xpath = "//button[contains(@data-test,'checkout')]")
+    WebElement checkOutButton;
+
 
     public CartPage(WebDriver webDriver) {
         this.webDriver = webDriver;
+        PageFactory.initElements(webDriver, this);
+
     }
 
     public String getPageHeading() {
         return pageHeading.getText();
     }
 
-    //Private WebDriver webDriver;
 
+    public void getRemoveButton() {
+        removeButton.isEnabled();
+    }
+
+    //Continue Shopping Button
+    public String getContinueButtonText() {
+        return continueButton.getText();
+    }
+
+
+    public boolean checkButtonIsEnabled() {
+        return continueButton.isEnabled();
+    }
+
+
+    public void clickContinueButton() {
+        continueButton.click();
+    }
+
+
+    public boolean checkContinueButtonIsEnable() {
+        return continueButton.isEnabled();
+
+    }
+
+    //Checkout page
+    public boolean VerifyCheckOutButtonIsEnabled() {
+        return checkOutButton.isEnabled();
+    }
+
+
+    public String getCheckoutButtonText() {
+        return checkOutButton.getText();
+    }
+
+
+    public void clickCheckOutButton() {
+        checkOutButton.click();
+    }
 }

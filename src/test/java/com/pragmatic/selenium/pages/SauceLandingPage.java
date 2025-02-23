@@ -21,7 +21,7 @@ public class SauceLandingPage {
 //    WebElement PButton;
 
     @FindBy(css="[data-test='shopping-cart-link']")
-            WebElement shoppingCart;
+    WebElement shoppingCart;
 
     By BypButton = By.xpath("//button[contains(@data-test, 'add-to-cart')]");
     By bycItem = By.cssSelector(".shopping_cart_badge");

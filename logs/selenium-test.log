@@ -593,3 +593,17 @@
 2025-02-21 17:15:55 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Items in cart: 6
 2025-02-21 17:25:08 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Items in cart: 6
 2025-02-21 17:28:40 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Items in cart: 6
+2025-02-23 22:12:20 [main] DEBUG com.pragmatic.selenium.test.SauceLoginTest - Expected Error Message:: Epic sadface: Username is required --  Actual Error Message:: Epic sadface: Username is required
+2025-02-23 22:12:24 [main] DEBUG com.pragmatic.selenium.test.SauceLoginTest - Expected Error Message:: Epic sadface: Username and password do not match any user in this service --  Actual Error Message:: Epic sadface: Username and password do not match any user in this service
+2025-02-23 22:12:27 [main] DEBUG com.pragmatic.selenium.test.SauceLoginTest - Expected Error Message:: Epic sadface: Username and password do not match any user in this service --  Actual Error Message:: Epic sadface: Username and password do not match any user in this service
+2025-02-23 22:12:32 [main] DEBUG com.pragmatic.selenium.test.SauceLoginTest - Expected Error Message:: Epic sadface: Sorry, this user has been locked out. --  Actual Error Message:: Epic sadface: Sorry, this user has been locked out.
+2025-02-23 22:12:35 [main] DEBUG com.pragmatic.selenium.test.SauceLoginTest - Expected Error Message:: Epic sadface: Password is required --  Actual Error Message:: Epic sadface: Password is required
+2025-02-23 22:12:38 [main] INFO  com.pragmatic.selenium.test.SauceLoginTest - Login page testing
+2025-02-23 22:12:38 [main] DEBUG com.pragmatic.selenium.test.SauceLoginTest - Landing page Title is:Products
+2025-02-23 22:14:06 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Expected-Name: Sauce Labs Backpack, Price: $29.99
+2025-02-23 22:14:09 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Expected-Name: Sauce Labs Bike Light, Price: $9.99
+2025-02-23 22:14:13 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Expected-Name: Sauce Labs Bolt T-Shirt, Price: $15.99
+2025-02-23 22:14:17 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Expected-Name: Sauce Labs Fleece Jacket, Price: $49.99
+2025-02-23 22:14:20 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Expected-Name: Sauce Labs Onesie, Price: $7.99
+2025-02-23 22:14:24 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Expected-Name: Test.allTheThings() T-Shirt (Red), Price: $15.99
+2025-02-23 22:14:28 [main] DEBUG com.pragmatic.selenium.test.SauceLandingTest - Items in cart: 6
