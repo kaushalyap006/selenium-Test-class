@@ -1,10 +1,14 @@
 package com.pragmatic.selenium.TestData;
 
+import net.datafaker.Faker;
 import org.testng.annotations.DataProvider;
 
 public class TestData {
 
-
+    Faker faker = new Faker();
+    String firstName = faker.name().firstName();
+    String lastName = faker.name().lastName();
+    String postcode = faker.address().postcode();
 
     @DataProvider(name = "user-credentials")
     public Object[][] userCredentials() {
@@ -30,6 +34,19 @@ public class TestData {
         };
     }
 
+        @DataProvider(name = "test_error_messages")
+        public Object[][] checkOutInfo() {
+            return new Object[][]{
+                    {"", "", "", "Error: First Name is required"},
+                    {firstName, "", "", "Error: Last Name is required"},
+                    {firstName, lastName, "", "Error: Postal Code is required"}
+            };
+        }
+
+
+    }
+
+
 //    @DataProvider(name = "product_data")
 //    public Object[][] testProductData() {
 //        return new Object[][]{
@@ -42,5 +59,5 @@ public class TestData {
 //
 //        } ;
 
-    }
+
 

@@ -3,43 +3,38 @@
     <parameter name="browser" value="firefox"/>
     <parameter name="headless" value="true"/>
 
-    <test name="test-in-firefox" enabled="false">
+    <test name="test-in-firefox" enabled="true">
         <packages>
-            <package name="com.pragmatic.selenium.selenium"/>
+            <!--  <package name="com.pragmatic.selenium.selenium"/>-->
+            <package name="com.pragmatic.selenium.test"/>
         </packages>
     </test>
 
 
-    <test name="test-in-chrome" enabled="true">
+    <test name="test-in-chrome" enabled="false">
         <parameter name="browser" value="chrome"/>
         <parameter name="headless" value="true"/>
 
         <packages>
-            <package name="com.pragmatic.selenium.selenium"/>
+            <!--   <package name="com.pragmatic.selenium.selenium"/>-->
+            <package name="com.pragmatic.selenium.test"/>
         </packages>
     </test>
 
 
     <test name="test-new method" enabled="false">
-
-
+        <parameter name="browser" value="chrome"/>
+        <parameter name="headless" value="true"/>
         <classes>
-            <class name="com.pragmatic.selenium.testng.TestNgExampleTwo">
-                <methods>
-                    <parameter name="browser" value="chrome"/>
-                    <include name="orderComplete"/>
+            <!--<class name="com.pragmatic.selenium.test.SauceLandingTest"/>-->
+            <!--<class name="com.pragmatic.selenium.test.SauceLoginTest"/>-->
+            <!--<class name="com.pragmatic.selenium.test.CartTest"/>-->
+            <!--<class name="com.pragmatic.selenium.test.CheckOutInformationTest"/>-->
+            <!--<class name="com.pragmatic.selenium.test.CheckOutOverviewTest"/>-->
+            <class name="com.pragmatic.selenium.test.CompleteTest"/>
 
-                </methods>
-            </class>
-            <class name="com.pragmatic.selenium.testng.TestNgExampleOne">
-                <methods>
-                    <exclude name="testMethod2">
 
-                    </exclude>
-                </methods>
-            </class>
         </classes>
     </test>
 </suite>
-       
-       
+

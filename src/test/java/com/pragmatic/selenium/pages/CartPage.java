@@ -10,8 +10,7 @@ import org.openqa.selenium.support.PageFactory;
 public class CartPage {
     private final WebDriver webDriver;
 
-    @FindBy(css = ("[data-test-'title']"))
-    WebElement pageHeading;
+    By bypageHeading = By.cssSelector("[data-test='title']");
 
     @FindBy(xpath = "//button[contains(@data-test, 'remove')]")
     WebElement removeButton;
@@ -29,46 +28,45 @@ public class CartPage {
 
     }
 
-    public String getPageHeading() {
-        return pageHeading.getText();
-    }
 
+    public String getPageHeading() {
+        return webDriver.findElement(bypageHeading).getText();
+    }
 
     public void getRemoveButton() {
         removeButton.isEnabled();
     }
 
+
     //Continue Shopping Button
+
     public String getContinueButtonText() {
         return continueButton.getText();
     }
-
 
     public boolean checkButtonIsEnabled() {
         return continueButton.isEnabled();
     }
 
-
     public void clickContinueButton() {
         continueButton.click();
     }
-
 
     public boolean checkContinueButtonIsEnable() {
         return continueButton.isEnabled();
 
     }
 
+
     //Checkout page
+
     public boolean VerifyCheckOutButtonIsEnabled() {
         return checkOutButton.isEnabled();
     }
 
-
     public String getCheckoutButtonText() {
         return checkOutButton.getText();
     }
-
 
     public void clickCheckOutButton() {
         checkOutButton.click();

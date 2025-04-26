@@ -14,13 +14,7 @@ public class SauceLandingPage {
     @FindBy(css = "span.title")
     WebElement eleTitle;
 
-//    @FindBy(css = "[data-test='.shopping-cart-badge']")
-//    WebElement cItem;
-
-//    @FindBy(xpath = "//button[contains(@data-test, 'add-to-cart')]")
-//    WebElement PButton;
-
-    @FindBy(css="[data-test='shopping-cart-link']")
+    @FindBy(css = "[data-test='shopping-cart-link']")
     WebElement shoppingCart;
 
     By BypButton = By.xpath("//button[contains(@data-test, 'add-to-cart')]");
@@ -28,7 +22,6 @@ public class SauceLandingPage {
     By removeButton = By.xpath("//button[contains(@data-test, 'remove')]");
     By byProductName = By.className("inventory_item_name");
     By byproductPrice = By.className("inventory_item_price");
-
 
 
     public SauceLandingPage(WebDriver webDriver) {
@@ -44,13 +37,11 @@ public class SauceLandingPage {
 
     // Method to get the product name from a specific product element
     public String getProductName(WebElement product) {
-        //return webDriver.findElement(byProductName).getText();
         return product.findElement(byProductName).getText();
     }
 
 
     public String getPriceName(WebElement product) {
-        //return webDriver.findElement(byproductPrice).getText();
         return product.findElement(byproductPrice).getText();
     }
 
@@ -67,6 +58,7 @@ public class SauceLandingPage {
             WebElement item = ProductItems.get(i);
             item.click();
         }
+
     }
 
 
@@ -74,7 +66,8 @@ public class SauceLandingPage {
         return webDriver.findElement(removeButton).getText();
     }
 
-    public void  clickCart(){
+    public void clickCart() {
         shoppingCart.click();
+
     }
 }
